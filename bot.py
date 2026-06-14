@@ -226,7 +226,17 @@ async def echo(update: Update, context: ContextTypes.DEFAULT_TYPE):
 # -------------------------
 # APP SETUP
 # -------------------------
-app = Application.builder().token(TOKEN).build()
+from telegram.ext import JobQueue
+
+job_queue = JobQueue()
+job_queue.start()
+
+app = (
+    Application.builder()
+    .token(TOKEN)
+    .job_queue(job_queue)
+    .build()
+)
 
 app.add_handler(CommandHandler("start", start))
 app.add_handler(CommandHandler("ping", ping))
