@@ -60,6 +60,10 @@ python bot.py
 4. The bot will start automatically
 
 ---
+# 📁 If you want to download (Windows)
+
+Download the source code on the "Releases" section.
+---
 
 🧠 How it works
 
