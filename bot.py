@@ -5,6 +5,7 @@ import requests
 from datetime import datetime
 from telegram import Update
 from telegram.ext import Application, CommandHandler, MessageHandler, ContextTypes, filters
+import JobQueue
 
 TOKEN = os.getenv("BOT_TOKEN")
 
@@ -226,7 +227,6 @@ async def echo(update: Update, context: ContextTypes.DEFAULT_TYPE):
 # -------------------------
 # APP SETUP
 # -------------------------
-from telegram.ext import JobQueue
 
 job_queue = JobQueue()
 job_queue.start()
