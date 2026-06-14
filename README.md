@@ -74,6 +74,12 @@ When a message is received, it sends the exact same text back to the user.
 
 ---
 
+## 🤔If you need support
+
+Add a new issue using the "+" button on the repository!
+
+---
+
 ## 📜 License
 
 This project is open-source and released under the MIT License.
