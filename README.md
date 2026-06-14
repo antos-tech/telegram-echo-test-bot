@@ -5,7 +5,7 @@ It is mainly used to test message delivery between Telegram and a backend servic
 
 ---
 
-🚀 Features
+## 🚀 Features
 
 - Echoes back any text message sent to the bot
 - Ignores commands like "/start"
@@ -13,14 +13,14 @@ It is mainly used to test message delivery between Telegram and a backend servic
 
 ---
 
-📦 Requirements
+## 📦 Requirements
 
 - Python 3.10 or higher
 - A Telegram bot token from BotFather
 
 ---
 
-⚙️ Installation
+## ⚙️ Installation
 
 1. Clone the repository:
 
@@ -33,7 +33,7 @@ pip install -r requirements.txt
 
 ---
 
-🔑 Configuration
+## 🔑 Configuration
 
 Set the environment variable:
 
@@ -46,13 +46,13 @@ On Railway:
 
 ---
 
-▶️ Run locally
+## ▶️ Run locally
 
 python bot.py
 
 ---
 
-☁️ Deploy on Railway
+## ☁️ Deploy on Railway
 
 1. Connect your GitHub repository to Railway
 2. Add the environment variable "BOT_TOKEN"
@@ -60,12 +60,14 @@ python bot.py
 4. The bot will start automatically
 
 ---
-# 📁 If you want to download (Windows)
+
+## 📁 If you want to download (Windows)
 
 Download the source code on the "Releases" section.
+
 ---
 
-🧠 How it works
+## 🧠 How it works
 
 The bot uses "python-telegram-bot" in polling mode.
 When a message is received, it sends the exact same text back to the user.
