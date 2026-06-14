@@ -74,7 +74,7 @@ When a message is received, it sends the exact same text back to the user.
 
 ---
 
-## 🤔If you need support
+## 🤔 If you need support
 
 Add a new issue using the "+" button on the repository!
 
