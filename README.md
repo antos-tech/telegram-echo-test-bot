@@ -68,6 +68,10 @@ When a message is received, it sends the exact same text back to the user.
 
 ---
 
-📄 License
+## 📜 License
 
-This project is free to use for educational and personal purposes.
+This project is open-source and released under the MIT License.
+
+You are free to use, modify, and distribute this project with attribution.
+
+See the LICENSE file for more details.
