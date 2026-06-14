@@ -227,9 +227,7 @@ async def echo(update: Update, context: ContextTypes.DEFAULT_TYPE):
 # -------------------------
 # APP SETUP
 # -------------------------
-
-job_queue = JobQueue()
-job_queue.start()
+app = Application.builder().token(TOKEN).build()
 
 app = (
     Application.builder()
